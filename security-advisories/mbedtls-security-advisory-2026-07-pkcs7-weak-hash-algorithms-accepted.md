@@ -3,7 +3,7 @@
 **Title** | PKCS7 signed data verification accepts weak hash algorithms
 --------- | ----------------------------------------------------------
 **CVE** | N/A
-**Date** | N/A
+**Date** | 7th of July, 2026
 **Affects** | Mbed TLS from 3.3.0 up to 3.6.6; Mbed TLS 4.0.0 to 4.1.0
 **Not affected** | Mbed TLS 3.6.7 and later 3.6.x versions, Mbed TLS 4.1.1 and later 4.1.x versions, Mbed TLS 4.2 and later 4.x versions
 **Impact** | An attacker capable of engineering hash collisions can forge a second message that passes PKCS7 signature verification against a previously validated signature

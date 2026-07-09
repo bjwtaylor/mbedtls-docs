@@ -3,7 +3,7 @@
 **Title** | Out-of-bounds read when parsing a zero-length ECC public key
 --------- | ------------------------------------------------------------
 **CVE** | CVE-2026-50583
-**Date** | 30 June 2026
+**Date** | 7th of July, 2026
 **Affects** | All versions of Mbed TLS from 3.5.0 to 3.6.6 with driver-only ECC; all versions of Mbed TLS from 4.0.0 to 4.1.0; all versions of TF-PSA-Crypto up to 1.1.0
 **Not affected** | Mbed TLS up to 3.4.1; Mbed TLS 3.5.0 through 3.6.6 with built-in ECC; Mbed TLS 3.6.7 and later 3.6.x versions; Mbed TLS 4.1.1 and later 4.1.x versions; Mbed TLS 4.2.0 and later 4.x versions; TF-PSA-Crypto 1.2.0 and later 1.x versions
 **Impact** | Out-of-bounds read while parsing malformed ECC key material, potentially causing a crash

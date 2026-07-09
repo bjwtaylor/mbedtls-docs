@@ -3,7 +3,7 @@
 **Title** | TLS 1.3 client accepts HelloRetryRequest selecting an unadvertised group
 --------- | ----------------------------------------------------------
 **CVE** | CVE-2026-25832
-**Date** | 30 June 2026
+**Date** | 7th of July, 2026
 **Affects** | Mbed TLS 3.5.0 through 3.6.6, all Mbed TLS 4 versions up to 4.1.1
 **Not affected** | all versions up to and including 3.4.1, Mbed TLS 3.6.7 and later, and Mbed TLS 4.1.2 and later.
 **Impact** | TLS 1.3 client group policy bypass; Limited denial of service in some configurations

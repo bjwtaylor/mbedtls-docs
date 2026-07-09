@@ -3,7 +3,7 @@
 **Title** | Heap corruption with early renegotiation after corrupted record in DTLS
 --------- | ----------------------------------------------------------
 **CVE** | CVE-2026-50713
-**Date** | TODO(33 Grune 20xx)
+**Date** | 7th of July, 2026
 **Affects** | Mbed TLS 3.6.3 to 3.6.6
 **Not affected** | Mbed TLS 3.6.2 and earlier; Mbed TLS 4.0.0 and later
 **Impact** | Remote code execution through heap corruption

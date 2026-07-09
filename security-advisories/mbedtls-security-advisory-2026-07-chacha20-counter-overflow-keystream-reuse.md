@@ -3,7 +3,7 @@
 **Title** | ChaCha20 counter overflow can reuse keystream
 --------- | ----------------------------------------------------------
 **CVE** | CVE-2026-50584
-**Date** | TODO(publication date)
+**Date** | 7th of July, 2026
 **Affects** | Mbed TLS 2.12.0 through 3.6.6; Mbed TLS 4.0.0-beta through 4.1.0; TF-PSA-Crypto 1.0.0-beta through 1.1.0
 **Not affected** | Mbed TLS before 2.12.0; Mbed TLS 3.6.7 and later 3.6.x; Mbed TLS 4.1.1 and later 4.1.x; Mbed TLS 4.2.0 and later; TF-PSA-Crypto 1.1.1 and later 1.1.x; TF-PSA-Crypto 1.2.0 and later
 **Impact** | Reuse of ChaCha20 keystream can compromise confidentiality, and excessive ChaCha20-Poly1305 input can expose the Poly1305 one-time key and allow message forgery.

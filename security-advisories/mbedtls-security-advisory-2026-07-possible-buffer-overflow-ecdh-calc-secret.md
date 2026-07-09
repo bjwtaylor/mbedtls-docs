@@ -3,7 +3,7 @@
 **Title** | Possible buffer overflow in `mbedtls_ecdh_calc_secret()`
 --------- | ----------------------------------------------------------
 **CVE** | CVE-2026-35336 
-**Date** | 30 June 2026
+**Date** | 7th of July, 2026
 **Affects** | All versions of Mbed TLS up to 3.6.6
 **Not affected** | Mbed TLS 3.6.7 and later, Mbed TLS 4.0 and later, all versions of TF-PSA-Crypto
 **Impact** | Depending on the location of the buffer, up to remote code execution

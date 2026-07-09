@@ -3,7 +3,7 @@
 **Title** | Incomplete context reset in mbedtls_ssl_session_reset()
 --------- | ----------------------------------------------------------
 **CVE** | CVE-2026-50585
-**Date** | TODO(33 Grune 20xx)
+**Date** | 7th of July, 2026
 **Affects** | <ul><li>`badmac_seen`: Mbed TLS releases up to 3.6.2, Mbed TLS 4.0.0 and 4.1.0.</li><li>`dtls_srtp_info`: Mbed TLS from 2.25.0 up to 3.6.6, Mbed TLS 4.0.0 and 4.1.0</li></ul>
 **Not affected** | <ul><li>`badmac_seen`: Mbed TLS 3.6.3 and later 3.6.x releases, Mbed TLS 4.1.1 and later 4.1.x releases, Mbed TLS 4.2.0 and later 4.2.x releases.</li><li>`dtls_srtp_info`: Mbed TLS 3.6.7 and later 3.6.x releases, Mbed TLS 4.1.1 and later 4.1.x releases, Mbed TLS 4.2.0 and later 4.x releases</li></ul>
 **Impact** | Applications reusing an SSL context may experience premature DTLS connection failure or incorrect DTLS-SRTP parameter inheritance

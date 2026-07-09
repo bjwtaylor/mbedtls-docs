@@ -3,7 +3,7 @@
 **Title** | Information disclosure in TLS 1.2 NewSessionTicket
 --------- | ----------------------------------------------------------
 **CVE** | CVE-2026-50586
-**Date** | TODO(publication date)
+**Date** | 7th of July, 2026
 **Affects** | Mbed TLS 2.0.0 through 2.28.10; Mbed TLS 3.0.0 through 3.6.6; Mbed TLS 4.0.0 through 4.1.0
 **Not affected** | Mbed TLS 1.3.22 and earlier; Mbed TLS 3.6.7 and later 3.6 versions; Mbed TLS 4.1.1 and later 4.1 versions; Mbed TLS 4.2.0 and later 4.x versions
 **Impact** | A TLS 1.2 server can disclose 4 bytes of stack memory to a peer in a NewSessionTicket message when ticket generation fails.

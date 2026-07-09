@@ -3,7 +3,7 @@
 **Title** | Extended master secret calculation failure ignored
 --------- | ----------------------------------------------------------
 **CVE** | CVE-2026-50581
-**Date** | TODO(33 Grune 20xx)
+**Date** | 7th of July, 2026
 **Affects** | all versions of Mbed TLS up to 3.6.6; Mbed TLS 4.0.0 to 4.1.0
 **Not affected** | Mbed TLS 3.6.7 and later 3.6.x versions; Mbed TLS 4.1.1 and later 4.1.x versions; Mbed TLS 4.2.0 and later versions
 **Impact** | security degratation in protocols using the TLS master secret; sanitizer crash

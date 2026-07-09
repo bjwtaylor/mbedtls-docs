@@ -3,7 +3,7 @@
 **Title** | Timing side-channel in RSA PKCS#1 v1.5 decryption
 --------- | ----------------------------------------------------------
 **CVE** | CVE-2026-50587
-**Date** | 7 July 2026
+**Date** | 7th of July, 2026
 **Affects** | All versions of Mbed TLS from 2.17.0 to 3.6.6; all versions of Mbed TLS from 4.0.0 to 4.1.0; all versions of TF-PSA-Crypto up to 1.1.0
 **Not affected** | Mbed TLS 3.6.7 and later 3.6.x versions; Mbed TLS 4.1.1 and later 4.1.x versions; Mbed TLS 4.2.0 and later 4.x versions; TF-PSA-Crypto 1.1.1 and later 1.1.x versions; TF-PSA-Crypto 1.2.0 and later 1.x versions
 **Impact** | Plaintext recovery via decryption side channel

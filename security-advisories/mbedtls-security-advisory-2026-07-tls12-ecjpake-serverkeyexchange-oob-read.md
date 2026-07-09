@@ -3,7 +3,7 @@
 **Title** | Out-of-bounds read in TLS 1.2 EC J-PAKE ServerKeyExchange parsing
 --------- | ----------------------------------------------------------
 **CVE** | CVE-2026-50588
-**Date** | 30 June 2026
+**Date** | 7th of July, 2026
 **Affects** | Mbed TLS 3.3.0 through 3.6.6; Mbed TLS 4.0.0 through 4.1.0
 **Not affected** | Mbed TLS before 3.3.0; Mbed TLS 3.6.7 and later 3.6.x versions; Mbed TLS 4.1.1 and later 4.1.x versions; Mbed TLS 4.2.0 and later 4.x versions
 **Impact** | A malicious TLS 1.2 server can cause a client to read outside the validated ServerKeyExchange message while parsing an EC J-PAKE key exchange

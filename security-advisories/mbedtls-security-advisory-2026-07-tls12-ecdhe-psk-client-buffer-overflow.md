@@ -3,7 +3,7 @@
 **Title** | Remote buffer overflow in TLS 1.2 ECDHE-PSK client handshake
 --------- | ----------------------------------------------------------
 **CVE** | CVE-2026-50580
-**Date** | TODO(publication date)
+**Date** | 7th of July, 2026
 **Affects** | Mbed TLS 1.3.10 through 3.6.6; Mbed TLS 4.0.0 through 4.1.0
 **Not affected** | Mbed TLS 1.3.9 and earlier; Mbed TLS 3.6.7 and later 3.6.x versions; Mbed TLS 4.1.1 and later 4.1.x versions; Mbed TLS 4.2.0 and later versions; TF-PSA-Crypto
 **Impact** | A malicious TLS 1.2 server can cause a client configured with an oversized PSK identity to write past the end of the TLS output buffer when an ECDHE-PSK ciphersuite is negotiated.

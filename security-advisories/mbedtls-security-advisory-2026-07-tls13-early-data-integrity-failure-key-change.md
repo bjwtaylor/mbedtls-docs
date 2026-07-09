@@ -3,7 +3,7 @@
 **Title** | TLS 1.3 early data integrity failure due to buffered plaintext across key change
 --------- | ----------------------------------------------------------
 **CVE** | CVE-2026-TODO
-**Date** | TODO(33 Grune 20xx)
+**Date** | 7th of July, 2026
 **Affects** | Mbed TLS 3.6.0 to 3.6.6; Mbed TLS 4.0.0 to 4.1.0
 **Not affected** | All versions before Mbed TLS 3.6.0; Mbed TLS 3.6.7 and later 3.6.x versions; Mbed TLS 4.1.1 and later 4.1.x versions; Mbed TLS 4.2.0 and later 4.x versions
 **Impact** | A network attacker capable of modifying traffic between a TLS 1.3 client and server can cause accepted TLS 1.3 early data to be silently discarded while the handshake completes successfully. |

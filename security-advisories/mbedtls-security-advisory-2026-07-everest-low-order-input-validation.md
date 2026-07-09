@@ -3,7 +3,7 @@
 **Title** | Everest: lack of contributory behaviour due to improper input validation
 --------- | ----------------------------------------------------------
 **CVE** | CVE-2026-54434
-**Date** | TODO(33 Grune 20xx)
+**Date** | 7th of July, 2026
 **Affects** | TF-PSA-Crypto 1.1.0, Mbed TLS 4.1.0
 **Not affected** | TF-PSA-Crypto 1.0.0, Mbed TLS 4.0.0 and earlier
 **Impact** | ECDH does not guarantee contributory behaviour, which some protocols may require

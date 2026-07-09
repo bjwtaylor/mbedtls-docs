@@ -3,7 +3,7 @@
 **Title** | Signature algorithm restrictions not enforced on certificate chain
 --------- | ----------------------------------------------------------
 **CVE** | CVE-2026-54441
-**Date** | 30 June 2026
+**Date** | 7th of July, 2026
 **Affects** | Mbed TLS up to 3.6.6 and earlier; Mbed TLS 4.0.0 and 4.1.0
 **Not affected** | Mbed TLS 3.6.7 and later, Mbed TLS 4.1.1 and later, Mbed TLS 4.2.0 and later
 **Impact** | An application may accept certificate chains signed with algorithms that were not intended to be allowed

@@ -3,7 +3,7 @@
 **Title** | Ignored TLS 1.3 resumption secret derivation error
 --------- | ----------------------------------------------------------
 **CVE** | CVE-2026-50640
-**Date** | TODO(publication date)
+**Date** | 7th of July, 2026
 **Affects** | Mbed TLS 3.3.0 through 3.6.6; Mbed TLS 4.0.0-beta through 4.1.0
 **Not affected** | Mbed TLS before 3.3.0; Mbed TLS 3.6.7 and later 3.6.x; Mbed TLS 4.1.1 and later 4.1.x; Mbed TLS 4.2.0 and later.
 **Impact** | A TLS 1.3 server could issue invalid tickets, leading to extra resource usage, or to rejecting connections in rare configurations.
