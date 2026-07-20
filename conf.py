@@ -30,6 +30,9 @@ author = 'The Mbed TLS Contributors'
 extensions = ['myst_parser']
 
 myst_heading_anchors = 3
+myst_enable_extensions = [
+    "dollarmath",
+]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
