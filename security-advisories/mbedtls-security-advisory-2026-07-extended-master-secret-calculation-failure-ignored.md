@@ -6,7 +6,7 @@
 **Date** | 7th of July, 2026
 **Affects** | all versions of Mbed TLS up to 3.6.6; Mbed TLS 4.0.0 to 4.1.0
 **Not affected** | Mbed TLS 3.6.7 and later 3.6.x versions; Mbed TLS 4.1.1 and later 4.1.x versions; Mbed TLS 4.2.0 and later versions
-**Impact** | security degratation in protocols using the TLS master secret; sanitizer crash
+**Impact** | security degradation in protocols using the TLS master secret; sanitizer crash
 **Severity** | LOW
 **Credits** | Matthew Gretton-Dann
 
@@ -99,16 +99,16 @@ The table below describes the impact of the flaw based on the library version, t
 
 | Library version | Configuration | (D)TLS version | Hash driver failure | Heap allocation failure |
 | --------------- | ------------- | -------------- | ------------------- | ----------------------- |
-| up to 3.3.x | default | $\le 1.2$ | uniq | N/A |
-| 3.4.0 to 3.6.x | default | $\le 1.2$ | uniq | uniq, ASan |
-| 2.23.0 to 2.28.x | `MBEDTLS_USE_PSA_CRYPTO` enabled | $\le 1.1$ | uniq | N/A |
-| 2.23.0 to 3.3.x | `MBEDTLS_USE_PSA_CRYPTO` enabled | $1.2$ | uniq, ASan | uniq, ASan |
-| 3.4.x | `MBEDTLS_USE_PSA_CRYPTO` enabled | $1.2$ | uniq, ASan | N/A |
-| 3.5.x | `MBEDTLS_USE_PSA_CRYPTO` enabled | $1.2$ | uniq | N/A |
-| 3.6.0 to 3.6.6 | `MBEDTLS_USE_PSA_CRYPTO` enabled, `MBEDTLS_PSA_ASSUME_EXCLUSIVE_BUFFERS` not enabled | $1.2$ | uniq | uniq, ASan |
-| 3.6.0 to 3.6.6 | `MBEDTLS_USE_PSA_CRYPTO` enabled, `MBEDTLS_PSA_ASSUME_EXCLUSIVE_BUFFERS` enabled | $1.2$ | uniq | N/A |
-| 4.0.0 to 4.1.0 | `MBEDTLS_PSA_ASSUME_EXCLUSIVE_BUFFERS` not enabled | $1.2$ | uniq | uniq, ASan |
-| 4.0.0 to 4.1.0 | `MBEDTLS_PSA_ASSUME_EXCLUSIVE_BUFFERS` enabled | $1.2$ | uniq | N/A |
+| up to 3.3.x | default | <= 1.2 | uniq | N/A |
+| 3.4.0 to 3.6.x | default | <= 1.2 | uniq | uniq, ASan |
+| 2.23.0 to 2.28.x | `MBEDTLS_USE_PSA_CRYPTO` enabled | <= 1.1 | uniq | N/A |
+| 2.23.0 to 3.3.x | `MBEDTLS_USE_PSA_CRYPTO` enabled | 1.2 | uniq, ASan | uniq, ASan |
+| 3.4.x | `MBEDTLS_USE_PSA_CRYPTO` enabled | 1.2 | uniq, ASan | N/A |
+| 3.5.x | `MBEDTLS_USE_PSA_CRYPTO` enabled | 1.2 | uniq | N/A |
+| 3.6.0 to 3.6.6 | `MBEDTLS_USE_PSA_CRYPTO` enabled, `MBEDTLS_PSA_ASSUME_EXCLUSIVE_BUFFERS` not enabled | 1.2 | uniq | uniq, ASan |
+| 3.6.0 to 3.6.6 | `MBEDTLS_USE_PSA_CRYPTO` enabled, `MBEDTLS_PSA_ASSUME_EXCLUSIVE_BUFFERS` enabled | 1.2 | uniq | N/A |
+| 4.0.0 to 4.1.0 | `MBEDTLS_PSA_ASSUME_EXCLUSIVE_BUFFERS` not enabled | 1.2 | uniq | uniq, ASan |
+| 4.0.0 to 4.1.0 | `MBEDTLS_PSA_ASSUME_EXCLUSIVE_BUFFERS` enabled | 1.2 | uniq | N/A |
 
 ## Affected versions
 
